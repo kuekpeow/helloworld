@@ -14,9 +14,6 @@ jobs:
           - arch: aarch64_cortex-a53
             target: mvebu-cortexa53
 
-          - arch: x86_64
-            target: x86-64
-
     steps:
       - uses: actions/checkout@v3
         with:
